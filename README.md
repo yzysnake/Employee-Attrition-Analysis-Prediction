@@ -21,13 +21,10 @@ This project aims to predict employee attrition using IBM's HR Analytics dataset
   
 The dataset is clean with no significant missing values.
 
-## Project Structure
+## Model Usuages
 
-```bash
-├── data/              # Contains the dataset and any processed data
-├── notebooks/         # Jupyter notebooks for EDA, preprocessing, and model training
-├── models/            # Saved models
-├── src/               # Source code for training and evaluation scripts
-├── README.md          # Project README file
-├── requirements.txt   # Python dependencies
-└── results/           # Results, graphs, and evaluation metrics
+- Logistic Regression: A basic linear model that is often used for binary classification problems.
+- Support Vector Machine (SVM): A robust classification model that works well for high-dimensional datasets and can create non-linear boundaries.
+- Random Forest: An ensemble model that uses multiple decision trees to capture complex interactions between features and reduce the risk of overfitting.
+- Ensemble Method: Combines predictions from multiple models to create a more accurate and stable prediction.
+
